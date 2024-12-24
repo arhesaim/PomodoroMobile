@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="max_blue">#30d9ef</color>
     <color name="min_blue">#96e8f3</color>
+    <color name="baby_pink">#F4C2C2</color>
+    <color name="olive_green">#808000</color>
 </resources>
