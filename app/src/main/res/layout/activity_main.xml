@@ -49,48 +49,52 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="sec time left"
+                android:text="min time left"
                 android:gravity="center"
                 android:textSize="20sp"
                 android:textColor="@color/max_blue"/>
         </LinearLayout>
     </FrameLayout>
-    <ImageButton
-        android:id="@+id/btnAdd"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="32dp"
-        android:background="@color/black"
-        android:text="add"
-        android:scaleType="fitXY"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/flTimer"
-        />
+
     <TextView
-        android:id="@+id/tv_addTime"
+        android:id="@+id/btnAdd"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="44dp"
-        android:layout_marginBottom="160dp"
-        android:text="+15s"
+        android:layout_marginStart="156dp"
+        android:layout_marginBottom="244dp"
+        android:text="Set Time"
         android:textColor="@color/max_blue"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageButton
-        android:id="@+id/ib_reset"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_marginEnd="44dp"
+    <TextView
+        android:id="@+id/tv_addTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
         android:layout_marginBottom="160dp"
-        android:background="@color/black"
-        android:scaleType="fitXY"
-        android:text="reset"
+        android:text="+5m"
+        android:textColor="@color/max_blue"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/ib_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="304dp"
+        android:layout_marginBottom="160dp"
+        android:text="Reset"
+        android:textColor="@color/max_blue"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnPlayPause"

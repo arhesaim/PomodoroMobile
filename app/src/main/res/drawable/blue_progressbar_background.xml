@@ -9,7 +9,7 @@
             <gradient
                 android:startColor="@color/max_blue"
                 android:centerColor="@color/teal_200"
-                android:endColor="@color/baby_pink"/>
+                android:endColor="@color/olive_green"/>
         </shape>
     </item>
 </layer-list>
